@@ -1,0 +1,858 @@
+    /* *{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box; */
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+    
+
+}
+nav{
+position: fixed;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+margin-top: -20vh;
+ height: 10vh;
+ width: 100%;
+
+}
+.logo img{
+    height: 6.5vh;
+    width: auto;
+    margin-left: 70px;
+    position: fixed;
+    margin-top: 0.5rem;
+    
+}
+ul{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+   margin-top: 1.2rem;
+    margin-left: 40vh;
+    overflow: hidden;
+     
+}
+ul li{
+    font-size: 1.3rem;
+    list-style: none;
+    font-weight: 850;   
+}
+li:hover{
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #16e994;
+    transition: 0.2s ease-in initial;
+}
+.botton{
+    display: flex;
+    justify-content: end;
+    margin-top: 5vh;
+    gap: 30px;
+    
+    
+}
+.botton a{ 
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: -1rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-right: 3vh;
+    gap: 2vh;
+}
+.botton :hover{
+  
+    background-color: #00cf7c;
+}
+/* heder part of the website */
+he
+header{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+p{
+    font-size: 3.3rem;
+    font-weight: 900;
+    margin-top: 8rem;
+    margin-left: 16vh;
+
+}
+span{
+    font-size: 3.3rem;
+   
+}
+h1{
+    font-size: 3rem;
+    margin-top: -3rem;
+    margin-left: 16vh;
+}
+h2{
+    font-size: 1.2rem;
+    margin-top: -1.3rem;
+    margin-left: 16.5vh;
+}
+.logo_2 img{
+    height: 70vh;
+    width: auto;
+    margin-top: -40vh;
+    margin-left: 45rem;
+    animation-name: anim1;
+    animation-duration: 2s;
+   
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 13rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 105px;
+    margin-top: -28vh;
+}
+h3:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #00cf7c;
+}
+#book{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -2.7em;
+    margin-left: 21.5rem;
+}
+#credit{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 7.6rem;
+}
+main{
+    height: 100vh;
+    width: 100%;
+}
+#Real{
+    font-size: 2.5rem;
+    margin-left: 66vh;
+}
+#Discover{
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: -4vh;
+    margin-left: 75vh;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+
+}
+.box1{
+    height: 160px;
+    width: 230px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-image: url(Habuildd.webp);
+    background-size:contain      ;
+    
+
+}
+.box2{
+    height: 160px;
+    width: 230px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-image: url(Vedantuhome.webp);
+    background-size: cover;
+}
+.box3{
+    height: 160px;
+    width: 230px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-image: url(inves.jpg);
+    background-size: cover;
+
+}
+.box4{
+    height: 160px;
+    width: 230px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-image: url(zellbury.svg);
+    background-size: cover;
+}
+#box1{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 3vh;
+    margin-left: 18vh;
+
+}
+#box2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: -19vh;
+    margin-left: 61.5vh;
+    
+
+}
+#box3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: -16vh;
+    margin-left: 106.9vh;
+}
+#box4{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: -16vh;
+    margin-left: 150.9vh;
+
+}
+#fetures{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 270px;
+    background-color: #E3F5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 82vh;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 28px;
+}
+/* main box div */
+.main_box1{
+
+
+
+align-items: center;
+height: 70rem;
+width: 90%;
+border-radius: 20px;
+background-color: #dbf0ff;
+margin-left: 10.8vh;
+
+}
+/* min box img div */
+.main_box1 img{
+height: 45vh;
+width: 60vh;
+margin-top: 20vh;
+margin-left: 8vh;
+}
+/* heading of broadcast  */
+#Broadcast{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 2rem;
+   margin-top: -46vh;
+   margin-left: 96vh;
+   font-weight: 600;
+
+}
+/* paragrpgh of brodcast */
+#brod_p1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.3rem;
+font-weight: 400;
+margin-top: 10vh;
+margin-left: 96vh;
+margin-top: -2vh;
+}
+/* a tag of broadcast */
+/* #bord_a1{
+height: 5.5vh;
+width: 40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.3rem;
+font-weight: 700;
+border: 3px solid black;
+border-radius: 10px;
+position: relative; */
+/* }
+bord_a:hover{
+    background-color: #00cf7c;
+} */
+
+
+/* chat box strat */
+
+.chat_box1{    
+    margin-top: -175vh;
+    margin-left: 93vh;
+    position: static;
+}
+
+/* chaatbot img div */
+
+
+.chat_box1 img{
+height: 43vh;
+width: 60vh;
+margin-top: 80vh;
+margin-left: 25vh;
+}
+
+/* heading of chatbot */
+
+#chatbot{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: -47vh;
+    margin-left: -75vh;
+    font-weight: 600;
+}
+/* pargraph of chtbot */
+ #chatbot_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+   margin-top: 2vh;
+   margin-left: -75vh;
+ }
+ /* chatbot a tag */
+ #chat_a{
+height: 5.5vh;
+width: 40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.3rem;
+border: 3px solid black;
+border-radius: 10px;
+margin-left:-75vh;
+font-weight: 700;
+}
+#chat_a:hover{
+    background-color: #00cf7c;
+}
+/* shared box img */
+.shared_box img{
+    height: 43vh;
+    width: 60vh;
+    margin-top: 70vh;
+    margin-left: 17vh;
+}
+/* shared box start */
+
+.shared_box{
+    margin-top: -64vh;
+}
+/* heading of shared box */
+
+#Shared{
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: -42vh;
+    margin-left: 95vh;
+    font-weight: 600;
+}
+/* paragraph of shared box */
+#shared_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-left: 95vh;
+}
+a{
+    height: 5.9vh;
+    width: 40vhpx;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    /* margin-right: -10vh; */
+
+}
+#shared_a{
+ text-transform: capitalize;
+ height: 5.5vh;
+ width: 40vh;
+ border: 2px solid black;
+ border-radius: 3px;
+ /* margin-left: 100vh; */
+}
+.main_box2{
+    height: 80vh;
+    width: 100%;
+    background-color: #fcb900;
+    ;
+   line-height: 32px;
+   
+   
+
+}
+#over{
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 68vh;
+    margin-top: -10vh;
+    position: relative;
+    top: 10vh;
+} 
+#over2{
+    
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-left: 31vh;
+    position: relative;
+    top: -5vh;
+   
+}
+/* main box 1 css start */
+.mainbox1{
+    height: 38vh;
+    width: 85vh;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: white;
+    margin-left: 5vh;
+}
+/* heading of hight inside of box box */
+#headingbox1{
+    font-size: 1.3rem;
+    margin: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* paragraph inside the box */
+#box2para{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vh;
+    margin-left: 3vh;
+    text-transform: capitalize;
+}
+/* last heding of box */
+#eduoard{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: -2vh;
+    margin-left: 3vh;
+    text-transform: capitalize;
+
+}
+/* last praghraph of box  */
+#box2p{
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: -3vh;
+    margin-left: 3vh;
+}
+/* edning the minbox1  */
+
+
+/* starting the mainbox2 */
+.mainbox2{
+    height: 38vh;
+    width: 85vh;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: white;
+    margin-left: 113vh;
+    margin-top: -38.5vh;
+}
+#headingbox2{
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: 115vh;
+    margin-top: -37.5vh;
+
+}
+#boxpara2{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -3vh;
+    margin-left: 116vh;
+    text-transform: capitalize;
+
+}
+#lastheadbox2{
+    font-size: 1.3rem;
+    margin-top: -3vh;
+    margin-left: 115.7vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+
+}
+#lastpara{
+    font-size: 1rem;
+ margin-top: -5vh;
+ margin-left: 115.7vh;
+ font-weight: 400;
+
+}
+#hedlines{
+   
+   
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600 ;
+    margin-top: -5vh;
+    margin-left: 15vh;
+}
+#parahead{
+    font-size: 1.8rem;
+    margin-top: -9.6vh;
+    margin-left: 43vh;
+}
+.brandlogo{
+  margin-left: 2vh;
+}
+.brandlogo img{
+    height: 8vh;
+    width: 25vh;
+    gap: 30px;
+    margin-left: 16vh;
+    margin-top: -10vh;
+    padding-bottom: 20vh;
+}
+
+/* #imga{
+ 
+} */
+
+
+/* advantages of wati heading */
+#head_advan{
+    display: flex;
+    justify-content: center;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* paragrapg of wati afyer heading */
+#para_advan{
+    display: flex;
+    justify-content: center;
+   margin-top: -3vh;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+/* advanteg img main div */
+
+.advan_box{
+    display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+    /* gap: 50px; */
+    
+}
+.advan_box img{
+    height: 29vh;
+    width: 30vh;
+   
+ 
+}
+/* new div for para and head of brand */
+
+#brk_head{
+
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5vh;
+    margin-left: 18vh;
+}
+#brk_p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 5vh;
+    margin-left: 18vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ups_head{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -28vh;
+    margin-left: 64vh;
+}
+#ups_p{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 5vh;
+    margin-left: 64vh;
+
+}
+#sscale_head{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 113vh;
+    margin-top: -28vh;
+}
+#sscale_p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 113vh;
+    margin-top: 5vh;
+}
+#chh_head{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160vh;
+    margin-top: -31vh;
+}
+#chh_p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160vh;
+    margin-top: 5vh;
+}
+/* finish of boxes and hed and para */
+
+
+/* start discover div */
+
+.discover_box{
+   
+    height: 48vh;
+    width: 180vh;
+    background-color: #00d084;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 13vh;
+   
+}
+#disc_heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 8vh;
+    margin-left: 9vh;
+}
+/* line one of para in dicover */
+#disc_p{
+    font-size: 2rem;
+    margin-top: -10.6vh;
+    margin-left: 44vh;
+    font-weight: 400;
+}
+/* line two of para in dicover */
+#disc_p2{
+    font-size: 2rem;
+    margin-left: 9vh;
+    margin-top: -4vh;
+    font-weight: 400;
+    
+}
+
+/* a tag of 7days in ciscover box */
+#discover_a{
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    height: 35px;
+    width: 40vh;
+    font-weight: 600;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 9vh;
+    margin-top: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#discover_a:hover{
+    background-color: rgb(43, 236, 59);
+    transition: 0.2s ease-in-out ;
+}
+
+#discover_b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    width: 20vh;
+    font-size: 1.2rem;
+    font-weight: 100;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-left: 55vh;
+    margin-top: -9.5vh;
+
+}
+#discover_b:hover{
+    font-weight: 550;
+    transition: 0.1s ease-in-out;
+}
+
+
+
+/* hover eefet in discover box */
+
+.discover_box:hover{
+    transition: 0.3s ease-in-out ;
+    transition-delay: 0.1s;
+    transform: scale(1.03);
+    
+    
+}
+
+/* footer part strat */
+ /* footer div main*/
+.footer{
+    font-family: Arial, Helvetica, sans-serif; 
+    height: 160vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    border: 3ps solid black;
+    position: relative;
+    bottom: -490vh;
+    color: white;
+}
+/* first head of first line  top feuters*/
+#top_head{
+    display: flex;
+    justify-content: start;
+    color: #4FC3FF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 8vh;
+}
+
+/* content of features */
+
+#tops_1{
+    display: flex;
+    justify-content: start;
+    font-size: 1rem;
+    margin-top: 4vh;
+    
+}
+/* single line */
+hr{
+    width: 40px;
+    margin-left: 16.5vh;
+    margin-top: 5vh;
+    
+}
+/* solution head */
+#solutions_head{
+    display: flex;
+    justify-content: start;
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+/* content of solution */
+#solu_2{
+    display: flex;
+    justify-content: start;
+    font-size: 1rem;
+    margin-top: -1vh;
+}
+
+/* head of solution */
+#int_head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 40ch;
+    margin-top: -106vh;
+    margin-left: 65vh;
+    color: #e639fdf8;
+   
+}
+/* content of solution */
+#int_3{
+    font-size: 1rem;
+    margin-left: 40ch; 
+    margin-top: 5vh;
+}
+/* resource head box */
+#rec_head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+    margin-top: -86vh;
+    margin-left: 115vh;
+
+}
+
+/* contenet box  */
+#rec_4{
+font-size: 1rem;
+margin-left: 115vh;
+margin-top: 5vh;
+}
+/* hr tag */
+#linehr{
+    width: 40px;
+    margin-left: 115vh;
+    background-color: yellow;
+     
+}
+
+#free_head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #e639fdf8;
+    margin-left: 115vh;
+    margin-top: 4vh;
+    
+
+}
+#free_5{
+    font-size: 1rem;
+    margin-left: 115vh;
+    margin-top: 3vh;
+}
+/* wati head */
+#wati_head{
+    font-size: 1.5rem;
+    color: rgb(21, 219, 21);
+    margin-top: -121.5vh;
+    margin-left: 160vh;
+}
+#wati_6{
+    font-size: 1rem;
+    margin-left: 160vh;
+    margin-top: 5vh;
+}
